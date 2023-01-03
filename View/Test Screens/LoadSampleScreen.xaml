@@ -1,0 +1,84 @@
+﻿<UserControl x:Class="Nanopath.View.LoadSampleScreen"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Nanopath.View"
+      xmlns:controls="clr-namespace:Nanopath.View.Controls"
+      xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="900"
+      Background="White" FontSize="28" 
+      FocusManager.FocusedElement="{Binding ElementName=SampleIdBox}"  IsTabStop="False" 
+      Loaded="UserControl_Loaded">
+
+    <UserControl.DataContext>
+        <Binding Source="{StaticResource Locator}" Path="LoadSampleViewModel"/>
+    </UserControl.DataContext>
+
+    <UserControl.Resources>
+        <ResourceDictionary Source="..\StyleResources.xaml" />
+    </UserControl.Resources>
+
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding UserControlLoadedCommand}" />
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="64" />
+            <!-- Header -->
+            <RowDefinition Height="*" />
+            <!-- Content -->
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <local:Header Grid.Row="0">
+            <UserControl.DataContext>
+                <Binding Source="{StaticResource Locator}" Path="LoadSampleViewModel"/>
+            </UserControl.DataContext>
+        </local:Header>
+
+        <!-- Content -->
+        <Grid Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel  Grid.Column="0" Grid.Row="0" Orientation="Vertical" Margin="0,50,20,20" VerticalAlignment="Center">
+                <TextBlock Margin="0,0,0,4" Focusable="False"
+                           HorizontalAlignment="Left" VerticalAlignment="Center" 
+                           Text="Sample ID:" />
+
+                <controls:ClickSelectTextBox BorderBrush="{Binding SampleIdValid, Converter={StaticResource ValidityBoolToBrushConverter}}" 
+                                             BorderThickness="2" HorizontalAlignment="Left" VerticalAlignment="Center" 
+                                             Height="42" Width="300" Focusable="True" IsTabStop="True" TabIndex="0"
+                                             Text="{Binding SampleId, UpdateSourceTrigger=PropertyChanged}" x:Name="SampleIdBox"/>
+
+                <Image Stretch="UniformToFill" Margin="0,40,40,0" MaxWidth="400">
+                    <Image.Source>
+                        <BitmapImage UriSource="../Images/Insert_Sample.png"></BitmapImage>
+                    </Image.Source>
+                </Image>
+            </StackPanel>
+
+            <StackPanel x:Name="ButtonPanel"  Grid.Column="1" Grid.Row="0" Orientation="Vertical" Margin="20" VerticalAlignment="Center">
+                <Button Content="Next" FontSize="32"  Height="80" Width="300" Margin="0, 50, 0, 25"  IsTabStop="True"
+                        Command="{Binding RunTestCommand}" IsEnabled="{Binding CanRunTest}"  TabIndex="1"/>
+                <Button Content="Back" FontSize="32" Height="80" Width="300" Margin="0, 25, 0, 50"
+                        Command="{Binding GoToCurrentSettingsCommand}" IsTabStop="False">
+                    <Button.DataContext>
+                        <Binding Source="{StaticResource Locator}" Path="Main"/>
+                    </Button.DataContext>
+                </Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,64 @@
+﻿<UserControl x:Class="Nanopath.View.CurrentSettingsScreen"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Nanopath.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="900"
+      Background="White" FontSize="28">
+
+    <UserControl.DataContext>
+        <Binding Source="{StaticResource Locator}" Path="CurrentSettingsViewModel"/>
+    </UserControl.DataContext>
+
+    <UserControl.Resources>
+        <ResourceDictionary Source="..\StyleResources.xaml" />
+    </UserControl.Resources>
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="64" />
+            <!-- Header -->
+            <RowDefinition Height="*" />
+            <!-- Content -->
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <local:Header Grid.Row="0">
+            <UserControl.DataContext>
+                <Binding Source="{StaticResource Locator}" Path="CurrentSettingsViewModel"/>
+            </UserControl.DataContext>
+        </local:Header>
+
+        <!-- Content -->
+        <Grid Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0" Grid.Column="0" BorderBrush="Gray" BorderThickness="2" Margin="0,20,20,0">
+                <TextBlock Margin="8" FontSize="24" MinWidth="400" TextAlignment="Left"
+                           HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap"
+                           Text="{Binding CurrentSettings}"  />
+            </Border>
+            <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Vertical" Margin="20" VerticalAlignment="Center">
+                <Button Content="Edit" FontSize="32"  Height="80" Width="300" Margin="0, 50, 0, 25"
+                        Command="{Binding GoToSetupCommand}" />
+                <Button Content="Next" FontSize="32" Height="80" Width="300" Margin="0, 25, 0, 25"
+                        Command="{Binding GoToLoadSampleCommand}" />
+                <Button Content="Back" FontSize="32" Height="80" Width="300" Margin="0, 25, 0, 50"
+                        Command="{Binding GoToMenuCommand}">
+                    <Button.DataContext>
+                        <Binding Source="{StaticResource Locator}" Path="Main"/>
+                    </Button.DataContext>
+                </Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

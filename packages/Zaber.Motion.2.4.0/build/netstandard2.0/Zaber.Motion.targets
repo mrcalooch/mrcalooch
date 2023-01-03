@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <Choose>
+    <When Condition="'$(MSBuildToolsVersion)' &lt; '15.3' Or '$([MsBuild]::IsOsPlatform(`Windows`))' == 'true'">
+      <ItemGroup>
+        <Content Include="$(MSBuildThisFileDirectory)..\..\runtimes\win\native\zaber-motion-lib-windows-386.dll">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+          <Link>zaber-motion-lib-windows-386.dll</Link>
+          <Visible>false</Visible>
+        </Content>
+        <Content Include="$(MSBuildThisFileDirectory)..\..\runtimes\win\native\zaber-motion-lib-windows-amd64.dll">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+          <Link>zaber-motion-lib-windows-amd64.dll</Link>
+          <Visible>false</Visible>
+        </Content>
+      </ItemGroup>
+    </When>
+    <When Condition="'$(MSBuildToolsVersion)' &lt; '15.3' Or '$([MsBuild]::IsOsPlatform(`Linux`))' == 'true'">
+      <ItemGroup>
+        <Content Include="$(MSBuildThisFileDirectory)..\..\runtimes\linux\native\zaber-motion-lib-linux-386.so">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+          <Link>zaber-motion-lib-linux-386.so</Link>
+          <Visible>false</Visible>
+        </Content>
+        <Content Include="$(MSBuildThisFileDirectory)..\..\runtimes\linux\native\zaber-motion-lib-linux-amd64.so">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+          <Link>zaber-motion-lib-linux-amd64.so</Link>
+          <Visible>false</Visible>
+        </Content>
+        <Content Include="$(MSBuildThisFileDirectory)..\..\runtimes\linux\native\zaber-motion-lib-linux-arm.so">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+          <Link>zaber-motion-lib-linux-arm.so</Link>
+          <Visible>false</Visible>
+        </Content>
+        <Content Include="$(MSBuildThisFileDirectory)..\..\runtimes\linux\native\zaber-motion-lib-linux-arm64.so">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+          <Link>zaber-motion-lib-linux-arm64.so</Link>
+          <Visible>false</Visible>
+        </Content>
+      </ItemGroup>
+    </When>
+    <When Condition="'$(MSBuildToolsVersion)' &lt; '15.3' Or '$([MsBuild]::IsOsPlatform(`OSX`))' == 'true'">
+      <ItemGroup>
+        <Content Include="$(MSBuildThisFileDirectory)..\..\runtimes\osx\native\zaber-motion-lib-darwin-uni.dylib">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+          <Link>zaber-motion-lib-darwin-uni.dylib</Link>
+          <Visible>false</Visible>
+        </Content>
+      </ItemGroup>
+    </When>
+  </Choose>
+
+</Project>

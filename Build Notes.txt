@@ -1,0 +1,12 @@
+Prior to build...
+1. Set the assembly version number of the Nanopath project (Properties->Assembly Information Button)
+2. Set the displayed version number in the UI (SplashViewModel.cs, SoftwareVersion property)
+3. Set the version number in the Installer project (Properties->Version)
+
+Build Order
+1. Nanopath (Release configuration)
+2. Installer (Release configuration)
+
+Output
+1. The Nanopath executble is located in bin\x86\Release
+2. The installer is location in Installer\Release

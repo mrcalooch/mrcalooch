@@ -1,0 +1,116 @@
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\Nanopath.csproj.AssemblyReference.cache
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\Nanopath.csproj.SuggestedBindingRedirects.cache
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\View\MainWindow.baml
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\View\SplashScreen.baml
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\View\Setup Tabs\SettingsFiles.g.cs
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\View\Setup Tabs\StageAlignment.g.cs
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\View\MainWindow.g.cs
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\View\Header.g.cs
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\View\Setup Tabs\AlgorithmSettings.g.cs
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\View\Setup Tabs\SpectrometerSettings.g.cs
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\View\Setup Tabs\LocationSettings.g.cs
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\View\SetupScreen.g.cs
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\View\MenuScreen.g.cs
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\View\SplashScreen.g.cs
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\View\Test Screens\ResultsScreen.g.cs
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\View\Test Screens\CurrentSettingsScreen.g.cs
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\View\Test Screens\TestScreen.g.cs
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\View\Test Screens\LoadSampleScreen.g.cs
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\App.g.cs
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\Nanopath_Content.g.cs
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\Nanopath_MarkupCompile.cache
+G:\Shared drives\Nanopath Team\Matt\Reader\Readout Instrumentation V1.0\UI\Source Code\obj\Debug\Nanopath_MarkupCompile.lref
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\zaber-motion-lib-windows-386.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\zaber-motion-lib-windows-amd64.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\Nanopath.exe.config
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\Nanopath.exe
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\Nanopath.pdb
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\CommonServiceLocator.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\Google.Protobuf.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\System.Buffers.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\System.Memory.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\Thorlabs.ccs.interop.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\Zaber.Motion.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\Google.Protobuf.pdb
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\Google.Protobuf.xml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\System.Buffers.xml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\System.Memory.xml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\Thorlabs.ccs.interop.xml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\Zaber.Motion.xml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\Nanopath.csproj.AssemblyReference.cache
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\Nanopath.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\MainWindow.baml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\SplashScreen.baml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Setup Tabs\SettingsFiles.g.cs
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Setup Tabs\StageAlignment.g.cs
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\MainWindow.g.cs
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Header.g.cs
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Setup Tabs\AlgorithmSettings.g.cs
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Setup Tabs\SpectrometerSettings.g.cs
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Setup Tabs\LocationSettings.g.cs
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\SetupScreen.g.cs
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\MenuScreen.g.cs
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\SplashScreen.g.cs
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Test Screens\ResultsScreen.g.cs
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Test Screens\CurrentSettingsScreen.g.cs
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Test Screens\TestScreen.g.cs
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Test Screens\LoadSampleScreen.g.cs
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\App.g.cs
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\Nanopath_Content.g.cs
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\Nanopath_MarkupCompile.cache
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\Nanopath_MarkupCompile.lref
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\App.baml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Setup Tabs\SettingsFiles.baml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Setup Tabs\StageAlignment.baml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Header.baml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Setup Tabs\AlgorithmSettings.baml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Setup Tabs\SpectrometerSettings.baml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Setup Tabs\LocationSettings.baml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\SetupScreen.baml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\MenuScreen.baml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\ScreenDataTemplates.baml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\StyleResources.baml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Test Screens\ResultsScreen.baml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Test Screens\CurrentSettingsScreen.baml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Test Screens\TestScreen.baml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Test Screens\LoadSampleScreen.baml
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\Nanopath.g.resources
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\Nanopath.Properties.Resources.resources
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\Nanopath.csproj.GenerateResource.cache
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\Nanopath.csproj.CoreCompileInputs.cache
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\Nanopath.csproj.CopyComplete
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\Nanopath.exe
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\Nanopath.pdb
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Setup Tabs\ScheduleSettings.g.cs
+C:\Users\Dcolucci\Documents\NanoPath\Reader v1.0 - Source Code\Source Code\obj\Debug\View\Setup Tabs\ScheduleSettings.baml

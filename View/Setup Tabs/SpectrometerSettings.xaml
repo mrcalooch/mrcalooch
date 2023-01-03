@@ -1,0 +1,53 @@
+﻿<UserControl x:Class="Nanopath.View.SpectrometerSettings"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Nanopath.View"
+      xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="900"
+      Background="White" FontSize="28">
+
+    <UserControl.DataContext>
+        <Binding Source="{StaticResource Locator}" Path="SetupViewModel"/>
+    </UserControl.DataContext>
+
+    <UserControl.Resources>
+        <ResourceDictionary Source="..\StyleResources.xaml" />
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="46" />   <!-- Header -->
+            <RowDefinition Height="*" />    <!-- Content -->
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <local:Header Grid.Row="0">
+            <TextBlock FontSize="32" FontWeight="Bold" Text="Spectrometer Settings" HorizontalAlignment="Center"></TextBlock>
+        </local:Header>
+
+        <!-- Content -->
+        <!-- Content -->
+        <Grid Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0" Margin="0,20,10,20"
+                       HorizontalAlignment="Right" VerticalAlignment="Center" 
+                       Text="Integration Time (ms):" />
+            <xctk:DoubleUpDown Grid.Row="0" Grid.Column="1" Margin="0,20,0,20"
+                               HorizontalAlignment="Left" VerticalAlignment="Center" 
+                               Height="42" Width="260" Increment="0.1"
+                               Minimum="{Binding MinIntegrationMs}" Maximum="{Binding MaxIntegrationMs}"
+                               Value="{Binding IntegrationTimeMs, Mode=TwoWay}"/>
+        </Grid>
+    </Grid>
+</UserControl>

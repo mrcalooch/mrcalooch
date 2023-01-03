@@ -1,0 +1,46 @@
+﻿<!--Resource Dictionary To Associate ViewModels with specific Views-->
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:view="clr-namespace:Nanopath.View"
+    xmlns:viewModel="clr-namespace:Nanopath.ViewModel">
+
+    <!--Splash Screen-->
+    <DataTemplate DataType="{x:Type viewModel:SplashViewModel}" xmlns:vm="clr-namespace:Nanopath.ViewModel">
+        <view:SplashScreen />
+    </DataTemplate>
+
+    <!--Menu Screen-->
+    <DataTemplate DataType="{x:Type viewModel:MenuViewModel}" xmlns:vm="clr-namespace:Nanopath.ViewModel">
+        <view:MenuScreen />
+    </DataTemplate>
+
+    <!--Setup Screen-->
+    <DataTemplate DataType="{x:Type viewModel:SetupViewModel}" xmlns:vm="clr-namespace:Nanopath.ViewModel">
+        <view:SetupScreen />
+    </DataTemplate>
+
+    <!--Current Settings Screen-->
+    <DataTemplate DataType="{x:Type viewModel:CurrentSettingsViewModel}" xmlns:vm="clr-namespace:Nanopath.ViewModel">
+        <view:CurrentSettingsScreen />
+    </DataTemplate>
+
+    <!--Load Sample Screen-->
+    <DataTemplate DataType="{x:Type viewModel:LoadSampleViewModel}" xmlns:vm="clr-namespace:Nanopath.ViewModel">
+        <view:LoadSampleScreen />
+    </DataTemplate>
+
+    <!--Test Screen-->
+    <DataTemplate DataType="{x:Type viewModel:TestViewModel}" xmlns:vm="clr-namespace:Nanopath.ViewModel">
+        <view:TestScreen />
+    </DataTemplate>
+
+    <!--Results Screen-->
+    <DataTemplate DataType="{x:Type viewModel:ResultsViewModel}" xmlns:vm="clr-namespace:Nanopath.ViewModel">
+        <view:ResultsScreen />
+    </DataTemplate>
+
+</ResourceDictionary>
+
+
+    

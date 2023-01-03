@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Nanopath.View"
+                    xmlns:xcad="http://schemas.xceed.com/wpf/xaml/avalondock">
+    
+    <local:VersionStringToPresentationStringConverter x:Key="VersionStringToPresentationStringConverter" />
+    <local:ListBoxIndexConverter x:Key="ListBoxIndexConverter" />
+    <local:PositionToStringConverter x:Key="PositionToStringConverter" />
+    <local:LightSourceToStringConverter x:Key="LightSourceToStringConverter" />
+    <local:PosNegToStringConverter x:Key="PosNegToStringConverter" />
+    <local:PosNegToBrushConverter x:Key="PosNegToBrushConverter" />
+    <local:InverseBoolToVisibilityConverter x:Key="InverseBoolToVisibilityConverter" />
+    <local:ValidityBoolToBrushConverter x:Key="ValidityBoolToBrushConverter" />
+    <xcad:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+</ResourceDictionary>

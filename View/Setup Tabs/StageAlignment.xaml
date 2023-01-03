@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="Nanopath.View.StageAlignment"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Nanopath.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="900"
+      Background="White" >
+
+    <UserControl.DataContext>
+        <Binding Source="{StaticResource Locator}" Path="SetupViewModel"/>
+    </UserControl.DataContext>
+
+    <UserControl.Resources>
+        <ResourceDictionary Source="..\StyleResources.xaml" />
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="46" />   <!-- Header -->
+            <RowDefinition Height="*" />    <!-- Content -->
+            <RowDefinition Height="30" />   <!-- Footer -->
+            <!-- Content -->
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <local:Header Grid.Row="0">
+            <TextBlock FontSize="32" FontWeight="Bold" Text="Stage Alignment" HorizontalAlignment="Center"></TextBlock>
+        </local:Header>
+
+        <!-- Content -->
+        <StackPanel Grid.Row="1" Orientation="Vertical" Margin="20" VerticalAlignment="Center">
+            <Button Content="Load Control" FontSize="32"  Height="80" Width="300" Margin="0, 50, 0, 25"
+                    Command="{Binding LoadControlCommand}" />
+            <Button Content="Start" FontSize="32" Height="80" Width="300" Margin="0, 25, 0, 50"
+                    Command="{Binding PerformAlignmentCommand}" />
+        </StackPanel>
+    </Grid>
+</UserControl>
