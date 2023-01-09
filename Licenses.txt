@@ -1,4 +1,5 @@
-﻿Nanopath Utility Application makes use of software libraries that require distribution of the following licenses
+﻿BLAH
+Nanopath Utility Application makes use of software libraries that require distribution of the following licenses
 
 SPDX identifier
 MS-PL
